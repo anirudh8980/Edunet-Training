@@ -6,7 +6,7 @@
 body {
   font-family: "Segoe UI", sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: black;
   background: #f9f9ff;
 }
 header {
@@ -43,15 +43,18 @@ nav ul li a.active {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(to right, #e3ffe7, #d9e7ff);
+  height: 90vh;
+  background: url("https://getwallpapers.com/wallpaper/full/8/1/7/920956-widescreen-beautiful-background-pics-2560x1440.jpg") center/cover no-repeat ;
 }
 .hero h2 {
   font-size: 2.5rem;
   margin-bottom: 15px;
+  color: #ccc;
 }
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 20px;
+  color: #ccc;
 }
 .btn {
   display: inline-block;
