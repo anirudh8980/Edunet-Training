@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="app.js"></script>
+    <script>
+        function demo() {
+            var cse = document.getElementById("name").innerHTML;
+            if(cse == "Hello World"){
+                document.getElementById("name").innerHTML = "Welcome Ani";
+            }else {
+                document.getElementById("name").innerHTML = "Hello World";
+            }
+        }
+        function demo1() {
+            document.body.style.backgroundColor = "Red";
+            document.body.style.color = "White";
+        }
+    </script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1 id = "name">Hello World</h1>
+    <br>
+    <button onclick="demo()">Change Text</button>
+    <br>
+    <button onclick="demo1()">Change Color</button>
 </body>
 </html>
