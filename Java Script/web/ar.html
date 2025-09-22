@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .web{
+            display: flex;
+            gap: 20px;
+        }
+        img{
+            height: 200px;
+            width: 300px;
+        }
+        .box{
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="web">
+    <div class="box">
+        <img src="./img1.jpg">
+        <p>Nike shoes are available in a wide range of styles, including running, casual, and sports-specific footwear, with options to shop online or at nearby stores in Telangana, India.</p>
+    <button style="background-color: yellowgreen;" onclick="ChangeBG1()">ChangeBG</button>    
+    </div>
+     <div class="box">
+        <img src="./img2.jpeg">
+        <p>Rolex is a premier Swiss luxury watch brand known for its high-precision, exquisite craftsmanship, and iconic designs, available across India through official authorized retailers.</p>
+        <button style="background-color: lightseagreen;" onclick="ChangeBG2()">ChangeBG</button>
+    </div>
+     <div class="box">
+        <img src="./img3.jpg">
+        <p>Lacoste sunglasses offer a blend of sporty elegance and classic style, available in a wide range of frames, colors, and prescription options suitable for men, women, and unisex designs in India.</p>
+        <button style="background-color: orange;" onclick="ChangeBG3()">ChangeBG</button>
+    </div>
+    <div class="box">
+        <img src="./img4.jpeg">
+        <p>Men's hats come in a variety of styles, balancing fashion, functionality, and sun protection, with many options available online in India from classic to contemporary designs.</p>
+        <button style="background-color: pink;" onclick="ChangeBG4()">ChangeBG</button>
+    </div>
+    </div>
+    <script>
+        function ChangeBG1() {
+            document.body.style.backgroundColor = "yellowgreen";
+            document.body.style.color = "white";
+        }
+        function ChangeBG2() {
+            document.body.style.backgroundColor = "lightseagreen";
+            document.body.style.color = "white";
+        }
+        function ChangeBG3() {
+            document.body.style.backgroundColor = "orange";
+            document.body.style.color = "white";
+        }
+        function ChangeBG4() {
+            document.body.style.backgroundColor = "pink";
+            document.body.style.color = "white";
+        }
+    </script>
+</body>
+</html>
